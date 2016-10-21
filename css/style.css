@@ -1,6 +1,71 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  color: black;
+  font-size: 250%; 
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.row {
+	margin-top: 50px;
+	margin-bottom: 130px;
+}
+
+h1, h2, h3 {
+	font-weight: 200;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+#header h3 {
+	margin-top: 0px;
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: 50px;
+}
+
+#connect h2{
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+h4 {
+	font-size: 1em;
+}
+
 .viz_image {
 	height: 250px;
 	background-color: #666666;
+}
+
+@media screen and (max-width: 500px) {
+	#about_me {
+		padding: 0px 20px;
+	}
+}
+
+@media screen and (min-width: 501px) {
+	#about_me {
+		padding: 0px 120px;
+	}
+}
+
+.col-md-1{
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .fa {
