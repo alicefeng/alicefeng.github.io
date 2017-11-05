@@ -46,13 +46,15 @@ h4 {
 	font-size: 1em;
 }
 
-.viz_image {
-	height: 250px;
-}
-
 @media screen and (max-width: 399px) {
 	img {
 		max-width: 100%;
+	}
+	.row {
+		margin: 0px;
+	}
+	.project {
+		margin-bottom: 100px;
 	}
 }
 
@@ -83,4 +85,19 @@ h4 {
 
 .fa {
 	color: black;
+}
+
+.award {
+	text-align: center;
+	/*font-style: italic;*/
+	font-size: 0.9em;
+	color: #7f7f7f;
+}
+
+#iib-awards-badge {
+	position: absolute;
+	top: 0px;
+	right: -20px;
+	z-index: 100;
+	width: 30%;
 }
