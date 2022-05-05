@@ -54,6 +54,12 @@ h4 {
 	font-size: 1em;
 }
 
+img {
+	width: 360px;
+	height: 250px;
+	object-fit: cover;
+}
+
 .project_link {
 	text-align: center;
 	font-size: 1.2em;
