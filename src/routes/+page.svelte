@@ -1,4 +1,19 @@
 <main>
+    <section class="socials">
+        <a href="mailto:feng.a.g@gmail.com" class="social_link email">
+            <img src="./email-icon.svg">
+        </a>
+        <a href="https://github.com/alicefeng" target="_blank" class="social_link github">
+            <img src="./github-icon.svg">
+        </a>
+        <a href="https://www.linkedin.com/in/agfeng" target="_blank" class="social_link linkedin">
+            <img src="./linkedin-icon.svg">
+        </a>
+        <a href="https://twitter.com/fleecealeece" target="_blank" class="social_link twitter">
+            <img src="./twitterx-icon.svg">
+        </a>
+    </section>
+    
     <section class="intro">
         <div>Hello world, this is</div>
         <h1>Alice Feng.</h1>
@@ -19,6 +34,31 @@
         width: 100%;
         margin: 0 auto;
         /* border: 1px solid rebeccapurple; */
+    }
+
+    .socials {
+        position: fixed;
+        left: 1em;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+
+        .social_link {
+            display: inline-block;
+        }
+        
+        img {
+            width: 36px;
+            height: 36px;
+        }
+
+        .github img {
+            width: 41px;
+            height: 41px;
+        }
     }
 
     .intro {
