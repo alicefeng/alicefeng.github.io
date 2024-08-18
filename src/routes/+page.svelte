@@ -23,14 +23,21 @@
             Check out: 
             <a href="#">My work</a>
             <a href="#">My writing</a>
-            <a href="#">My teaching</a>
+            <a href="#teaching">My teaching</a>
         </nav>
+    </section>
+
+    <section id="teaching" class="teaching">
+        <h2>Oh, and I teach as well...</h2>
+        <p>I teach two courses for Claremont Graduate University&rsquo;s The Evaluators&rsquo; Institute — <strong>Introduction to Data Visualization</strong> and <strong>Applying an Equity Lens to Visualizing and Communicating Data</strong>.</p>
+        <p>I also co-facilitate the <strong>Data Storytelling</strong> session for Data Science Africa.</p>
+        <p>In addition to course teaching, I&rsquo;ve conducted workshops and trainings for a variety of organizations including Harvard University, the University of Pittsburgh, and the National Library of Medicine and  given presentations to places such as the Centers for Disease Control, the Congressional Budget Office, and the Census Bureau as well as at conferences such as Outlier and the Tableau Conference.</p>
     </section>
 
     <section class="outro">
         <img src="./tiny.jpg">
         <div>
-            <p>Thanks for stopping by! If you&rsquo;d like to get in touch, please drop me an <a href="mailto:feng.a.g@gmail.com">email</a>. In the meantime, here&rsquo;s a pic of one of the dogs from the animal shelter I volunteer at. 😁✌️</p>
+            <p>Thanks for stopping by! If you&rsquo;d like to get in touch, please drop me an <a href="mailto:feng.a.g@gmail.com">email</a>. In the meantime, here&rsquo;s a pic of one of the dogs from the animal shelter I volunteer at.✌️</p>
         </div>
     </section>
 </main>
@@ -52,6 +59,7 @@
         flex-direction: column;
         align-items: center;
         gap: 2em;
+        margin: 0;
 
         .social_link {
             display: inline-block;
@@ -98,7 +106,6 @@
         display: flex;
         gap: 2em;
         align-items: center;
-        margin: 5em 0;
 
         img {
             width: 410px;
