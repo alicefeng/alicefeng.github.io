@@ -26,6 +26,13 @@
             <a href="#">My teaching</a>
         </nav>
     </section>
+
+    <section class="outro">
+        <img src="./tiny.jpg">
+        <div>
+            <p>Thanks for stopping by! If you&rsquo;d like to get in touch, please drop me an <a href="mailto:feng.a.g@gmail.com">email</a>. In the meantime, here&rsquo;s a pic of one of the dogs from the animal shelter I volunteer at. 😁✌️</p>
+        </div>
+    </section>
 </main>
 
 <style lang="scss">
@@ -84,6 +91,17 @@
             font-weight: 700;
             display: flex;
             gap: 2.5em;
+        }
+    }
+
+    .outro {
+        display: flex;
+        gap: 2em;
+        align-items: center;
+        margin: 5em 0;
+
+        img {
+            width: 410px;
         }
     }
 </style>
