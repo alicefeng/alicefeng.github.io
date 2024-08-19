@@ -6,16 +6,16 @@
 <main>
     <section class="socials">
         <a href="mailto:feng.a.g@gmail.com" class="social_link email">
-            <img src="./email-icon.svg">
+            <img src="./email-icon.svg" alt="" aria-label="Email me">
         </a>
         <a href="https://github.com/alicefeng" target="_blank" class="social_link github">
-            <img src="./github-icon.svg">
+            <img src="./github-icon.svg" alt="" aria-label="View my Github">
         </a>
         <a href="https://www.linkedin.com/in/agfeng" target="_blank" class="social_link linkedin">
-            <img src="./linkedin-icon.svg">
+            <img src="./linkedin-icon.svg" alt="" aria-label="View my LinkedIn">
         </a>
         <a href="https://twitter.com/fleecealeece" target="_blank" class="social_link twitter">
-            <img src="./twitterx-icon.svg">
+            <img src="./twitterx-icon.svg" alt="" aria-label="View my X account">
         </a>
     </section>
     
@@ -54,7 +54,7 @@
     </section>
 
     <section class="outro">
-        <img src="./tiny.jpg">
+        <img src="./tiny.jpg" alt="A German Shepherd sitting on a bench on a sunny day">
         <div>
             <p>Thanks for stopping by! If you&rsquo;d like to get in touch, please drop me an <a href="mailto:feng.a.g@gmail.com">email</a>. In the meantime, here&rsquo;s a pic of one of the dogs from the animal shelter I volunteer at.✌️</p>
         </div>
