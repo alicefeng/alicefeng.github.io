@@ -1,3 +1,8 @@
+<script>
+    import writingsData from "$lib/data/writings.json"
+    import WritingItem from "$lib/components/WritingItem.svelte";
+</script>
+
 <main>
     <section class="socials">
         <a href="mailto:feng.a.g@gmail.com" class="social_link email">
@@ -22,9 +27,23 @@
         <nav>
             Check out: 
             <a href="#">My work</a>
-            <a href="#">My writing</a>
+            <a href="#writing">My writing</a>
             <a href="#teaching">My teaching</a>
         </nav>
+    </section>
+
+    <section id="writing" class="writing">
+        <h2>Here's what I've written...</h2>
+        <div class="writingCardContainer">
+            {#each writingsData as writing}
+                <WritingItem 
+                    title={writing.title} 
+                    outlet={writing.outlet}
+                    date={writing.date}
+                    url={writing.link}
+                />
+            {/each}
+        </div>
     </section>
 
     <section id="teaching" class="teaching">
@@ -100,6 +119,13 @@
             display: flex;
             gap: 2.5em;
         }
+    }
+
+    .writingCardContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: space-between;
     }
 
     .outro {
