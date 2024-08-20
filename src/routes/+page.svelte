@@ -54,7 +54,7 @@
     </section>
 
     <section class="outro">
-        <img src="./tiny.jpg" alt="A German Shepherd sitting on a bench on a sunny day">
+        <enhanced:img src="/static/tiny.jpg" alt="A German Shepherd sitting on a bench on a sunny day" />
         <div>
             <p>Thanks for stopping by! If you&rsquo;d like to get in touch, please drop me an <a href="mailto:feng.a.g@gmail.com">email</a>. In the meantime, here&rsquo;s a pic of one of the dogs from the animal shelter I volunteer at.✌️</p>
         </div>
@@ -130,11 +130,17 @@
 
     .outro {
         display: flex;
-        gap: 2em;
+        /* gap: 2em; */
         align-items: center;
+        justify-content: space-between;
 
         img {
             width: 410px;
+            height: 544.533px;
+        }
+
+        div {
+            width: 50%;
         }
     }
 </style>
