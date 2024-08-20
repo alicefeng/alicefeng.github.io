@@ -1,7 +1,7 @@
 <script>
     import writingsData from "$lib/data/writings.json"
     import WritingItem from "$lib/components/WritingItem.svelte";
-    import RoleTag from "../lib/components/RoleTag.svelte";
+    import RoleTag from "$lib/components/RoleTag.svelte";
 </script>
 
 <main>
