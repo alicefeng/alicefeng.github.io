@@ -1,6 +1,7 @@
 <script>
     import writingsData from "$lib/data/writings.json"
     import WritingItem from "$lib/components/WritingItem.svelte";
+    import RoleTag from "../lib/components/RoleTag.svelte";
 </script>
 
 <main>
@@ -30,6 +31,13 @@
             <a href="#writing">My writing</a>
             <a href="#teaching">My teaching</a>
         </nav>
+    </section>
+
+    <section id="project" class="project">
+        <h2>Here's what I've made...</h2>
+        <div class="legend">
+            My role: <RoleTag role={"Data Analysis"} /> <RoleTag role={"Design"} /> <RoleTag role={"Development"} />
+        </div>
     </section>
 
     <section id="writing" class="writing">
@@ -119,6 +127,12 @@
             display: flex;
             gap: 2.5em;
         }
+    }
+
+    .legend {
+        display: flex;
+        gap: 0.25em;
+        align-items: center;
     }
 
     .writingCardContainer {
