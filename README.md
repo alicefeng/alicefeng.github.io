@@ -1,22 +1,14 @@
-# create-svelte
+# Alice Feng's portfolio page
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+My new, improved and completely overhauled portfolio page created with [`SvelteKit`](https://kit.svelte.dev/).
 
-## Creating a project
+## How to run this project
 
-If you're seeing this, you've probably already done this step. Congrats!
+First, clone this repo.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Then, `cd` into the repo directory and install the dependencies with `npm install` (or `pnpm install` or `yarn`). 
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Afterwards, start a development server:
 
 ```bash
 npm run dev
@@ -25,14 +17,25 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## How to build and deploy this project
 
-To create a production version of your app:
+To create a production version of your app, first commit all changes to the `master` branch, then run:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+To preview the production build, run `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Since I'm deploying this on GitHub Pages, I used the [static adapter](https://kit.svelte.dev/docs/adapter-static) along with the [gh-pages](https://www.npmjs.com/package/gh-pages) package. I then configured my repo to build from the `gh-pages` branch created by the gh-pages package.
+
+To deploy the app and update the site, run:
+
+```bash
+npm run deploy
+```
+
+### References I found useful for figuring out how to deploy this app:
+- [How to deploy svelte app in Github Pages](https://hrishikeshpathak.com/blog/svelte-gh-pages/)
+- [Publishing a SvelteKit App to GitHub Pages](https://blog.seancoughlin.me/publishing-a-sveltekit-app-to-github-pages)
+- [How to deploy a SvelteKit website to GitHub pages](https://www.okupter.com/blog/deploy-sveltekit-website-to-github-pages)
