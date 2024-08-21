@@ -28,7 +28,7 @@
         <p>I’m a data communicator passionate about visualizing data in equitable, inclusive, and accessible ways.</p>
         <p>I’ve analyzed data and created visualizations at places such as Axios, the United Nations Development Programme, and the Urban Institute and have worked with organizations such as Data4Change, The Pudding, and DataKind. I’m also one of the authors of the <a href="https://www.urban.org/research/publication/do-no-harm-guide-applying-equity-awareness-data-visualization" target="_blank">Do No Harm Guide</a>.</p> 
         <nav>
-            Check out: 
+            <span>Check out: </span>
             <a href="#project">My work</a>
             <a href="#writing">My writing</a>
             <a href="#teaching">My teaching</a>
