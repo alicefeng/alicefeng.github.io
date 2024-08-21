@@ -178,4 +178,18 @@
             width: 50%;
         }
     }
+
+    @media screen and (max-width: 1149px) {
+        main {
+            max-width: 800px;
+        }
+
+        .intro nav {
+            gap: 1.5em;
+        }
+
+        .outro div {
+            width: 45%;
+        }
+    }
 </style>

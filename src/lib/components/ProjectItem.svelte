@@ -53,4 +53,14 @@
         gap: 0.2em;
     }
 
+    @media screen and (max-width: 1149px) {
+        .projectItemCard {
+            max-width: 360px;
+        }
+
+        img {
+            width: 360px;
+            height: 250px;
+        }
+    }
 </style>
