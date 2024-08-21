@@ -1,30 +1,44 @@
 [
-  {
-    "title": "Gen Z loves Google",
-    "outlet": "Axios",
-    "role": "Design",
-    "link": "https://www.axios.com/2023/04/04/gen-z-jobs-employers-google-tesla-patagonia",
-    "img": "gen-z-loves-google.png"
-  },
-  {
-    "title": "Dramatic realignment swings working-class districts toward GOP",
-    "outlet": "Axios",
-    "role": "Design",
-    "link": "https://www.axios.com/2023/04/12/house-democrats-winning-wealthier-districts-middle-class-gop",
-    "img": "dramatic-realignment-swings.png"
-  },
-  {
-    "title": "House GOP's money machine",
-    "outlet": "Axios",
-    "role": "Development",
-    "link": "https://www.axios.com/2023/04/23/house-republicans-competitive-fundraising",
-    "img": "house-gop-money-machine.png"
-  },
-  {
-    "title": "Compounding crises push more people into modern slavery, report warns",
-    "outlet": "Axios",
-    "role": "Design",
-    "link": "https://www.axios.com/2023/05/25/modern-slavery-countries-rank-list-forced-labor",
-    "img": "compounding-crises-push-more-people.png"
-  }
-]
+    {
+      "title": "Gen Z loves Google",
+      "outlet": "Axios",
+      "role": "Design",
+      "link": "https://www.axios.com/2023/04/04/gen-z-jobs-employers-google-tesla-patagonia",
+      "img": "gen-z-loves-google.png"
+    },
+    {
+      "title": "Dramatic realignment swings working-class districts toward GOP",
+      "outlet": "Axios",
+      "role": "Design",
+      "link": "https://www.axios.com/2023/04/12/house-democrats-winning-wealthier-districts-middle-class-gop",
+      "img": "dramatic-realignment-swings.png"
+    },
+    {
+      "title": "House GOP's money machine",
+      "outlet": "Axios",
+      "role": "Development",
+      "link": "https://www.axios.com/2023/04/23/house-republicans-competitive-fundraising",
+      "img": "house-gop-money-machine.png"
+    },
+    {
+      "title": "Compounding crises push more people into modern slavery, report warns",
+      "outlet": "Axios",
+      "role": "Design",
+      "link": "https://www.axios.com/2023/05/25/modern-slavery-countries-rank-list-forced-labor",
+      "img": "compounding-crises-push-more-people.png"
+    },
+    {
+      "title": "Charted: Growing global acceptance of gay and lesbian people",
+      "outlet": "Axios",
+      "role": "Data analysis, Design, Development",
+      "link": "https://www.axios.com/2023/06/03/gay-lesbian-global-acceptance-poll",
+      "img": "growing-global-acceptance.png"
+    },
+    {
+      "title": "Deforestation jumped 10% last year despite global pledges",
+      "outlet": "Axios",
+      "role": "Design",
+      "link": "https://www.axios.com/2023/06/27/deforestation-hot-spots-in-2022",
+      "img": "deforestation-jumped-ten-percent.png"
+    }
+  ]
