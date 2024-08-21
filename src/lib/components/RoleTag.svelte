@@ -9,7 +9,7 @@
 <style>
     span {
         font-size: 0.8rem;
-        font-weight: 700;
+        font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.03rem;
         padding: 0.15em 0.5em;

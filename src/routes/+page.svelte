@@ -144,7 +144,7 @@
 
     .legend {
         display: flex;
-        gap: 0.25em;
+        gap: 0.5em;
         align-items: center;
     }
 
