@@ -1,7 +1,9 @@
 <script>
     import writingsData from "$lib/data/writings.json"
+    import projectsData from "$lib/data/projects.json"
     import WritingItem from "$lib/components/WritingItem.svelte";
     import RoleTag from "$lib/components/RoleTag.svelte";
+    import ProjectItem from "$lib/components/ProjectItem.svelte";
 </script>
 
 <main>
@@ -27,7 +29,7 @@
         <p>I’ve analyzed data and created visualizations at places such as Axios, the United Nations Development Programme, and the Urban Institute and have worked with organizations such as Data4Change, The Pudding, and DataKind. I’m also one of the authors of the <a href="https://www.urban.org/research/publication/do-no-harm-guide-applying-equity-awareness-data-visualization" target="_blank">Do No Harm Guide</a>.</p> 
         <nav>
             Check out: 
-            <a href="#">My work</a>
+            <a href="#project">My work</a>
             <a href="#writing">My writing</a>
             <a href="#teaching">My teaching</a>
         </nav>
@@ -37,6 +39,17 @@
         <h2>Here's what I've made...</h2>
         <div class="legend">
             My role: <RoleTag role={"Data Analysis"} /> <RoleTag role={"Design"} /> <RoleTag role={"Development"} />
+        </div>
+        <div class="projectCardContainer">
+            {#each projectsData as project}
+                <ProjectItem 
+                    title={project.title}
+                    outlet={project.outlet}
+                    roles={project.role}
+                    url={project.link}
+                    imgName={project.img}
+                />
+            {/each}
         </div>
     </section>
 
@@ -133,6 +146,14 @@
         display: flex;
         gap: 0.25em;
         align-items: center;
+    }
+
+    .projectCardContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: space-between;
+        margin-top: 1em;
     }
 
     .writingCardContainer {

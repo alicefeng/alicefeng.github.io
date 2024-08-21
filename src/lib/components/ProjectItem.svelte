@@ -1,0 +1,51 @@
+<script>
+    import RoleTag from "./RoleTag.svelte";
+
+    export let title;
+    export let outlet;
+    export let roles;
+    export let url;
+    export let imgName;
+</script>
+
+<a href={url} target="_blank">
+    <div class="projectItemCard">
+        <img src={`/screenshots/${imgName}`} alt="" />
+        <h3>{title}</h3>
+        <p class="outlet">{outlet}</p>
+        <div class="roleTagContainer">
+            {#each roles.split(',') as role}
+                <RoleTag role={role} />
+            {/each}
+        </div>
+    </div>
+</a>
+
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    .projectItemCard {
+        max-width: 460px;
+        width: 100%;
+    }
+
+    img {
+        width: 460px;
+        height: 340px;
+        object-fit: cover;
+    }
+
+    h3 {
+        font-weight: 400;
+        line-height: 1.3;
+        margin: 0.1em 0;
+    }
+
+    .outlet {
+        color: #989898;
+        margin: 0.1em 0;
+    }
+
+</style>
