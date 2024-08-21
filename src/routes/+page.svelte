@@ -38,7 +38,7 @@
     <section id="project" class="project">
         <h2>Here's what I've made...</h2>
         <div class="legend">
-            My role: <RoleTag role={"Data Analysis"} /> <RoleTag role={"Design"} /> <RoleTag role={"Development"} />
+            My role: <RoleTag role={"Data analysis"} /> <RoleTag role={"Design"} /> <RoleTag role={"Development"} />
         </div>
         <div class="projectCardContainer">
             {#each projectsData as project}

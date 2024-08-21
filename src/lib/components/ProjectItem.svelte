@@ -48,4 +48,9 @@
         margin: 0.1em 0;
     }
 
+    .roleTagContainer {
+        display: flex;
+        gap: 0.2em;
+    }
+
 </style>

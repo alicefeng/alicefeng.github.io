@@ -1,13 +1,8 @@
 <script>
     export let role;
-
-    // function assignClass(role) {
-    //     if role === "Data Analysis" return "data_analysis";
-    //     return role;
-    // }
 </script>
 
-<span class={role === "Data Analysis" ? "data_analysis" : role.toLowerCase()}>
+<span class={role === "Data analysis" ? "data_analysis" : role.toLowerCase()}>
     {role}
 </span>
 
