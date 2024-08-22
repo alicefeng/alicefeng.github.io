@@ -103,5 +103,47 @@
     "role": "Development",
     "link": "https://www.urban.org/data-tools/work-requirements-tracker",
     "img": "work-requirements-tracker.png"
+  },
+  {
+    "title": "How rigid is the middle class in the US, really?",
+    "outlet": "The Pudding",
+    "role": "Data analysis, Development",
+    "link": "https://pudding.cool/2020/08/income/",
+    "img": "how-rigid-is-the-middle-class.png"
+  },
+  {
+    "title": "The Myth of the Impartial Machine",
+    "outlet": "Parametric Press",
+    "role": "Data analysis, Design, Development",
+    "link": "https://parametric.press/issue-01/the-myth-of-the-impartial-machine/",
+    "img": "the-myth-of-the-impartial-machine.png"
+  },
+  {
+    "title": "Piano Notes",
+    "outlet": "",
+    "role": "Data analysis, Design",
+    "link": "https://www.behance.net/gallery/139799525/Piano-Notes",
+    "img": "piano-notes.png"
+  },
+  {
+    "title": "Changing Temperatures",
+    "outlet": "",
+    "role": "Data analysis, Design",
+    "link": "https://www.behance.net/gallery/182297051/Changing-Temperatures",
+    "img": "changing-temperatures.png"
+  },
+  {
+    "title": "Access to Higher Education is Not Equal",
+    "outlet": "",
+    "role": "Data analysis, Design",
+    "link": "https://www.behance.net/gallery/58507831/Access-to-Higher-Education-is-Not-Equal",
+    "img": "access-to-higher-education.png"
+  },
+  {
+    "title": "The Digital Divide",
+    "outlet": "Data4Change",
+    "role": "Data analysis",
+    "link": "https://data4change.shorthandstories.com/digital-divide/",
+    "img": "the-digital-divide.png"
   }
 ]
