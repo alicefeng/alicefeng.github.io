@@ -229,4 +229,17 @@
             }
         } 
     }
+
+    @media screen and (max-width: 734px) {
+        .socials {
+            left: 0;
+            top: unset;
+            bottom: 0;
+            flex-direction: row;
+            transform: none;
+            background-color: #f7f7f7;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+    }
 </style>
