@@ -12,7 +12,9 @@
     <div class="projectItemCard">
         <img src={`/screenshots/${imgName}`} alt="" />
         <h3>{title}</h3>
-        <p class="outlet">{outlet}</p>
+        {#if outlet}
+            <p class="outlet">{outlet}</p>
+        {/if}
         <div class="roleTagContainer">
             {#each roles.split(',') as role}
                 <RoleTag role={role} />
