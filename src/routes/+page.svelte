@@ -151,7 +151,7 @@
     .projectCardContainer {
         display: flex;
         flex-wrap: wrap;
-        gap: 2em;
+        gap: 4em;
         justify-content: space-between;
         margin-top: 1em;
     }
