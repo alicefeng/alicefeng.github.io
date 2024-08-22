@@ -242,4 +242,47 @@
             justify-content: space-evenly;
         }
     }
+
+    @media screen and (max-width: 599px) {
+        main {
+            width: 90vw;
+        }
+
+        .intro {
+            div {
+                font-size: 2rem;
+            }
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+
+            nav {
+                font-size: 1.4rem;
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+        }
+
+        .legend {
+            gap: 0.25em;
+        }
+
+        .writingCardContainer {
+            gap: 1.5em;
+        }
+
+        .outro {
+            flex-direction: column-reverse;
+            gap: 2em;
+
+            div {
+                width: 100%;
+            }
+        }
+    }
 </style>

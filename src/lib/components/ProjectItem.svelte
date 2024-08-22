@@ -86,4 +86,14 @@
             font-size: 1rem;
         }
     }
+
+    @media screen and (max-width: 599px) {
+        .projectItemCard {
+            max-width: 90vw;
+        }
+
+        img {
+            width: 90vw;
+        }
+    }
 </style>

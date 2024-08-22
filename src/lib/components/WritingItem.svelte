@@ -63,4 +63,14 @@
         }
     }
 
+    @media screen and (max-width: 599px) {
+        .writingItemCard {
+            max-width: 500px;
+        }
+
+        h3 {
+            line-height: 1.4;
+        }
+    }
+
 </style>
