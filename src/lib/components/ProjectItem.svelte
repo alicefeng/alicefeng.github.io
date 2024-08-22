@@ -62,5 +62,28 @@
             width: 360px;
             height: 250px;
         }
+
+        h3 {
+            line-height: 1.2;
+        }
+    }
+
+    @media screen and (max-width: 974px) {
+        .projectItemCard {
+            max-width: 280px;
+        }
+
+        img {
+            width: 280px;
+            height: 220px;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+        }
+
+        .outlet {
+            font-size: 1rem;
+        }
     }
 </style>

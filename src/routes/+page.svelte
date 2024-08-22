@@ -129,7 +129,7 @@
             margin: 0;
         }
 
-        p{
+        p {
             font-size: 2rem;
             margin: 1em 0;
         }
@@ -191,5 +191,42 @@
         .outro div {
             width: 45%;
         }
+    }
+
+    @media screen and (max-width: 974px) {
+        main {
+            max-width: 600px;
+        }
+
+        .intro {
+
+            div {
+                font-size: 3rem;
+            }
+
+            h1 {
+                font-size: 6rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+
+            nav {
+                font-size: 1.5rem;
+                gap: 1em;
+            }
+        }
+        
+        .outro {
+            img {
+                width: 300px;
+                height: 398px;
+            }
+            
+            div {
+                width: 45%;
+            }
+        } 
     }
 </style>

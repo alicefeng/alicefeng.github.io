@@ -36,4 +36,10 @@
             background-color: #F6DFB5;
         }
     }
+
+    @media screen and (max-width: 974px) {
+        span {
+            font-size: 0.7rem;
+        }
+    }
 </style>

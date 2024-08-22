@@ -45,4 +45,22 @@
         margin: 0.15em 0;
     }
 
+    @media screen and (max-width: 974px) {
+        .writingItemCard {
+            max-width: 250px;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+        }
+
+        .outlet {
+            font-size: 1rem;
+        }
+
+        .date {
+            font-size: 0.9rem;
+        }
+    }
+
 </style>
