@@ -82,5 +82,26 @@
     "role": "Data analysis, Design",
     "link": "https://graphics.axios.com/2022-12-12-party-switches/2022-12-12-party-switches.html",
     "img": "members-congress-switched.png"
+  },
+  {
+    "title": "Where to Prioritize Emergency Rental Assistance to Keep Renters in Their Homes",
+    "outlet": "The Urban Institute",
+    "role": "Development",
+    "link": "https://www.urban.org/data-tools/where-prioritize-emergency-rental-assistance-keep-renters-their-homes",
+    "img": "where-to-prioritize-emergency-rental-assistance.png"
+  },
+  {
+    "title": "Disrupting Food Insecurity",
+    "outlet": "The Urban Institute",
+    "role": "Development",
+    "link": "https://apps.urban.org/features/disrupting-food-insecurity/",
+    "img": "disrupting-food-insecurity.png"
+  },
+  {
+    "title": "Work Requirements Tracker",
+    "outlet": "The Urban Institute",
+    "role": "Development",
+    "link": "https://www.urban.org/data-tools/work-requirements-tracker",
+    "img": "work-requirements-tracker.png"
   }
 ]
