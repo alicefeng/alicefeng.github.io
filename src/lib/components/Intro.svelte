@@ -54,7 +54,7 @@
 
     .sticky {
         position: sticky;
-        top: 10%;
+        top: 0;
         flex: 1 1 60%;
         width: 60%;
         height: 500px;
@@ -74,6 +74,7 @@
     h1 {
         font-size: 8.75rem;
         margin: 0;
+        margin-top: 0.7em;
     }
 
     .step {
