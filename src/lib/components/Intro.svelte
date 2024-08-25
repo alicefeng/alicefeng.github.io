@@ -94,7 +94,7 @@
     .step-content {
         color: #1a1a1a;
         opacity: 0.3;
-        padding: .5rem 0rem;
+        padding: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
