@@ -114,7 +114,7 @@
     }
 
     .steps-container {
-        flex: 1 1 40%;
+        /* flex: 1 1 40%; */
         /* z-index: 10; */
     }
 </style>
