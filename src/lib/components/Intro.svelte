@@ -5,6 +5,16 @@
   import Scrolly from "./Scrolly.svelte";
 	
   let value;
+
+  let stickyDivHeight;
+  let stepHeight;
+  let topValue = 0;
+
+//   $:console.log(stickyDivHeight);
+//   $:console.log(stepHeight);
+  $:topValue = stickyDivHeight - stepHeight + 70;
+//   $:console.log(topValue);
+
   const steps = [
     "<div>data viz</div>",
     "<div>designer</div>",
@@ -27,16 +37,16 @@
 <section>
   <div class="section-container">
     <div class="steps-container">
-      <Scrolly bind:value>
+      <Scrolly top={topValue} bind:value>
         {#each steps as text, i}
-          <div class="step" class:active={value === i}>
+          <div class="step" class:active={value === i} bind:clientHeight={stepHeight}>
             <div class="step-content">{@html text}</div>
           </div>
         {/each}
         <!-- <div class="spacer" /> -->
       </Scrolly>
     </div>
-    <div class="sticky">
+    <div class="sticky" bind:clientHeight={stickyDivHeight}>
         <h1>Alice Feng</h1>
         <div>is a</div>
     </div>
