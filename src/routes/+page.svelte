@@ -1,9 +1,11 @@
 <script>
+    import intro from "$lib/components/Intro.svelte";
     import writingsData from "$lib/data/writings.json"
     import projectsData from "$lib/data/projects.json"
     import WritingItem from "$lib/components/WritingItem.svelte";
     import RoleTag from "$lib/components/RoleTag.svelte";
     import ProjectItem from "$lib/components/ProjectItem.svelte";
+	import Intro from "../lib/components/Intro.svelte";
 </script>
 
 <main>
@@ -22,6 +24,7 @@
         </a>
     </section>
     
+    <Intro />
     <section class="intro">
         <div>Hello world, this is</div>
         <h1>Alice Feng.</h1>
