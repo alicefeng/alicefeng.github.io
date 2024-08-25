@@ -98,7 +98,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        transition: opacity 500ms ease;
+        transition: opacity 300ms ease;
         text-align: left;
         width: 100%;
     }
