@@ -85,7 +85,7 @@
 
     .step-content {
         color: #1a1a1a;
-        opacity: 0.5;
+        opacity: 0.3;
         padding: .5rem 0rem;
         display: flex;
         flex-direction: column;
