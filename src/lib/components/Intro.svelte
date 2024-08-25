@@ -33,7 +33,7 @@
             <div class="step-content">{@html text}</div>
           </div>
         {/each}
-        <div class="spacer" />
+        <!-- <div class="spacer" /> -->
       </Scrolly>
     </div>
     <div class="sticky">
@@ -48,9 +48,9 @@
 		overflow-x: hidden;
 	}
 	
-    .spacer {
+    /* .spacer {
         height: 40vh;
-    }
+    } */
 
     .sticky {
         position: sticky;
@@ -78,10 +78,7 @@
     }
 
     .step {
-        height: 80vh;
-        display: flex;
-        place-items: center;
-        justify-content: center;
+        /* height: 80vh; */
     }
 
     .step-content {
