@@ -13,6 +13,17 @@
   let y = 0;
   $:isActive = y - (sectionContainerHeight - (stepHeight * 1.6)); // y - (section-container height minus stepHeight with some padding)
 
+  /*** how to get the last step to "lock in place" and not disappear on scroll:
+   * 1. move the last step ("human being.") to its own div outside <Scrolly> so it doesn't scroll behind .sticky
+   * 2. toggle whether that step is active or not (i.e., at full or reduced opacity) based on the scroll position
+   * 3. if the top of .last-step is pretty much right under .sticky, then it should be set to .active
+   * 4. how to determine where the top of .last step is? by using the svelte:window scrollY binding
+   *    we listen to where the vertical scroll position is
+   *    when it's greater than the height of .section-container (i.e., the scrolly container) minus 
+   *    its own height (which is the same height as all of the steps) with some buffer, then we add .active to 
+   *    .last-step
+  ***/
+
   // $:console.log(stickyDivHeight);
   // $:console.log(sectionContainerHeight);
   // $:console.log(stepHeight);
