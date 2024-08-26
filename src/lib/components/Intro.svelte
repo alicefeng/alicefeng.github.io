@@ -7,13 +7,19 @@
   let value;
 
   let stickyDivHeight;
+  let sectionContainerHeight;
   let stepHeight;
   let topValue = 0;
+  let y = 0;
+  $:isActive = y - (sectionContainerHeight - (stepHeight * 1.6)); // y - (section-container height minus stepHeight with some padding)
 
-//   $:console.log(stickyDivHeight);
-//   $:console.log(stepHeight);
+  // $:console.log(stickyDivHeight);
+  // $:console.log(sectionContainerHeight);
+  // $:console.log(stepHeight);
   $:topValue = stickyDivHeight - stepHeight + 70;
 //   $:console.log(topValue);
+  // $:console.log(y);
+  // $:console.log(isActive);
 
   const steps = [
     "<div>data viz</div>",
@@ -29,13 +35,16 @@
     "<div>adventurer</div>",
     "<div>climber</div>",
     "<div>baker</div>",
-    "<div>volunteer</div>",
-    "<div>human being.</div>"
+    "<div>volunteer</div>"
   ];
 </script>
 
+<svelte:window bind:scrollY={y}/>
+
 <section>
-  <div class="section-container">
+  <div 
+    class="section-container" 
+    bind:clientHeight={sectionContainerHeight}>
     <div class="steps-container">
       <Scrolly top={topValue} bind:value>
         {#each steps as text, i}
@@ -46,10 +55,17 @@
         <!-- <div class="spacer" /> -->
       </Scrolly>
     </div>
-    <div class="sticky" bind:clientHeight={stickyDivHeight}>
+    <div 
+      class="sticky" 
+      bind:clientHeight={stickyDivHeight}>
         <h1>Alice Feng</h1>
         <div>is a</div>
     </div>
+  </div>
+  <div 
+    class="step last-step"
+    class:active={isActive > 0}>
+    <div class="step-content">human being.</div>
   </div>
 </section>
 
@@ -102,6 +118,11 @@
         opacity: 1;
     }
 	
+    .last-step {
+      font-size: 8.75rem;
+      line-height: 1;
+    }
+
     .steps-container,
     .sticky {
         height: 100%;
