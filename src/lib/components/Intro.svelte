@@ -65,8 +65,6 @@
     .sticky {
         position: sticky;
         top: 0;
-        flex: 1 1 60%;
-        width: 60%;
         height: 500px;
         background-color: #f7f7f7;
         width: 100%;
@@ -74,7 +72,6 @@
 
     .section-container {
         margin-top: 1em;
-        transition: background 100ms;
         display: flex;
         flex-direction: column-reverse;
         font-size: 8.75rem; 
@@ -94,10 +91,7 @@
     .step-content {
         color: #1a1a1a;
         opacity: 0.3;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        padding: 0.05em 0;
         transition: opacity 300ms ease;
         text-align: left;
         width: 100%;
