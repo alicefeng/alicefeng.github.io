@@ -187,15 +187,6 @@
         }
 
         .intro {
-
-            div {
-                font-size: 3rem;
-            }
-
-            h1 {
-                font-size: 6rem;
-            }
-
             p {
                 font-size: 1.5rem;
             }
@@ -238,14 +229,6 @@
         }
 
         .intro {
-            div {
-                font-size: 2rem;
-            }
-
-            h1 {
-                font-size: 4rem;
-            }
-
             p {
                 font-size: 1.4rem;
             }
