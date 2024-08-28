@@ -228,6 +228,7 @@
             background-color: #f7f7f7;
             width: 100%;
             justify-content: space-evenly;
+            z-index: 2;
         }
     }
 

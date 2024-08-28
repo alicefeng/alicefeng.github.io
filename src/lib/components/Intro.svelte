@@ -111,9 +111,9 @@
         margin-top: 0.3em;
     }
 
-    .step {
-        /* height: 80vh; */
-    }
+    /* .step {
+        height: 80vh;
+    } */
 
     .step-content {
         color: #1a1a1a;
@@ -139,8 +139,20 @@
         height: 100%;
     }
 
-    .steps-container {
-        /* flex: 1 1 40%; */
-        /* z-index: 10; */
+    /* .steps-container {
+        flex: 1 1 40%;
+        z-index: 10;
+    } */
+
+    @media screen and (max-width: 974px) {
+      .section-container, h1, .last-step {
+        font-size: 6rem;
+      }
+    }
+
+    @media screen and (max-width: 599px) {
+      .section-container, h1, .last-step {
+        font-size: 4rem;
+      }
     }
 </style>
