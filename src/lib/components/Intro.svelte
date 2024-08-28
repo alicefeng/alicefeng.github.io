@@ -24,13 +24,7 @@
    *    .last-step
   ***/
 
-  // $:console.log(stickyDivHeight);
-  // $:console.log(sectionContainerHeight);
-  // $:console.log(stepHeight);
   $:topValue = stickyDivHeight - stepHeight + 70;
-//   $:console.log(topValue);
-  // $:console.log(y);
-  // $:console.log(isActive);
 
   const steps = [
     "<div>data viz</div>",
