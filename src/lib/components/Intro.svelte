@@ -108,7 +108,7 @@
     h1 {
         font-size: 8.75rem;
         margin: 0;
-        margin-top: 0.7em;
+        margin-top: 0.3em;
     }
 
     .step {
